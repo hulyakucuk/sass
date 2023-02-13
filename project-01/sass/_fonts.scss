@@ -6,7 +6,7 @@ body{
     font-weight: 500;
     color: $primary-color;
     letter-spacing: 0.02rem;
-    background: linear-gradient(90deg,#d1c3fc,#9bc4fc);
+    background: linear-gradient(90deg,$body-bg-color-1,$body-bg-color-2);
 }
 
 
