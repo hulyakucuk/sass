@@ -41,6 +41,12 @@ body {
   margin: 0 auto;
   margin-top: 4rem;
 }
+.wrapper .main {
+  display: flex;
+}
+.wrapper .main .content {
+  flex: 1;
+}
 
 .header {
   height: 90px;
@@ -117,4 +123,39 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.sidebar {
+  flex-basis: 20%;
+  background: #000;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar-nav__link {
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  padding-left: 2rem;
+  transition: 300ms all;
+}
+.sidebar-nav__link:hover {
+  background: #4aa93f;
+  padding-left: 2.5rem;
+}
+.sidebar-copyright {
+  padding: 2rem;
+}
+.sidebar-copyright p {
+  color: #acacac;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.sidebar-copyright p span {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

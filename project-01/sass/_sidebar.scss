@@ -1,0 +1,38 @@
+.sidebar{
+    flex-basis: 20%;
+    background: $primary-color;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-nav{
+      
+        &__link{
+            color: #fff;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            text-transform:uppercase ;
+            padding: 1rem;
+            padding-left: 2rem;
+            @include transition(300ms all);
+            &:hover{
+                background: $green;
+                padding-left: 2.5rem;
+            }
+        }
+    }
+    &-copyright{
+        padding: 2rem;
+        p{
+            color: #acacac;
+            font-size: 0.9rem;
+            text-align: center;
+            line-height: 2rem;
+            span{
+              color:#fff;
+            }
+        }
+
+    }
+}
