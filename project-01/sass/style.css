@@ -128,7 +128,6 @@ body {
 .sidebar {
   flex-basis: 20%;
   background: #000;
-  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -158,4 +157,41 @@ body {
 }
 .sidebar-copyright p span {
   color: #fff;
+}
+
+.content-top__img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content-top__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content-top__bant {
+  display: flex;
+  height: 90px;
+  background-color: #fff;
+  align-items: center;
+}
+.content-top__bant h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-left: 2rem;
+}
+.content-top__bant h2 i {
+  margin-right: 1.5rem;
+}
+.content-top__bant h2 strong {
+  font-weight: 600;
+}
+.content-top__bant p {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
 }/*# sourceMappingURL=style.css.map */
